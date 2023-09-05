@@ -1,3 +1,22 @@
+.half-width img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+.half-width h1 {
+  text-align: center;
+  margin-top: -4%;
+  margin-bottom: 3%;
+}
+.half-width h2 {
+  text-align: center;
+  margin-top: -2%;
+  margin-bottom: 3%;
+}
 .table-name {
   width: 100%;
   border-collapse: collapse;
@@ -5,10 +24,11 @@
 .table-name td {
   text-align: left;
   border: 2px solid#ddd;
+  padding: 20px;
 }
 .table-name th {
   background-color: aqua;
-  padding: 20px;
+  padding: 10px;
   border: 2px solid#ddd;
   text-align: left;
 }
