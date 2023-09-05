@@ -1,0 +1,99 @@
+/* Google fonts */
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+/* Reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+}
+/* For table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #000 !important;
+  text-align: center !important;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+/* Common Css */
+table thead tr th {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
+/* Main Css here */
+body {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Fira Code", monospace;
+}
+.half-width img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+.half-width h1 {
+  text-align: center;
+  margin-top: -4%;
+  margin-bottom: 3%;
+}
+.half-width h2 {
+  text-align: center;
+  margin-top: -2%;
+  margin-bottom: 3%;
+}
+.table-name {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-name td {
+  text-align: left;
+  border: 2px solid#ddd;
+  padding: 20px;
+}
+.table-name th {
+  background-color: #2196f3;
+  padding: 10px;
+  border: 2px solid#ddd;
+  text-align: left;
+}
+.table-name tr:nth-child(even) {
+  background-color: #d6eeee;
+}
+.table-name tr {
+  padding: 15px;
+}
