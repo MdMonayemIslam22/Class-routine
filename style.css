@@ -1,0 +1,15 @@
+.table-name {
+  width: 100%;
+  border-collapse: collapse;
+  height: 50%;
+}
+.table-name td {
+  text-align: center;
+  border: 1px solid#ddd;
+}
+.table-name th {
+  background-color: aqua;
+}
+.table-name tr {
+  height: 50px;
+}
